@@ -1,4 +1,3 @@
-// Get the elements
 const textarea = document.querySelector('textarea');
 const criptoButton = document.querySelector('.cripto');
 const descriptoButton = document.querySelector('.descripto');
@@ -14,7 +13,6 @@ function descriptografar(text) {
   return text.replace(/[a-z]/g, c => String.fromCharCode(c.charCodeAt(0) - 3));
 }
 
-// Event listener for criptografar button
 criptoButton.addEventListener('click', () => {
   const text = textarea.value.trim();
   if (text) {
@@ -40,7 +38,6 @@ criptoButton.addEventListener('click', () => {
   }
 });
 
-// Event listener for descriptografar button
 descriptoButton.addEventListener('click', () => {
   const text = textarea.value.trim();
   if (text) {
