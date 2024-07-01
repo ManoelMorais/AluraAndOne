@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+:root {
+  --roxo: #4d243d;
+  --cinza: #d8dfe8;
+  --branco: #f0f0f0;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: var(--branco);
+}
+
+.caixa {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+  width: 100vw;
+}
+
+.page {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  gap: 60px;
+}
+
+textarea {
+  color: var(--roxo);
+
+  font-family: "Inter", sans-serif;
+  font-size: 32px;
+
+  width: 680px;
+  height: 580px;
+  resize: none;
+
+  padding: 20px;
+
+  border: none;
+}
+
+textarea:focus {
+  outline: none;
+}
+
+textarea::placeholder {
+  color: var(--roxo);
+  font-family: "Inter", sans-serif;
+}
+
+.infor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 16px;
+}
+
+.inferior {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 24px;
+}
+
+.aviso {
+  font-size: 12px;
+
+  color: gray;
+
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.botao {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.cripto {
+  cursor: pointer;
+  width: 328px;
+  height: 67px;
+  border-radius: 64px;
+  border: none;
+
+  background: var(--roxo);
+  color: var(--cinza);
+
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+}
+
+.descripto {
+  cursor: pointer;
+  width: 328px;
+  height: 67px;
+  border-radius: 64px;
+  border: 1px solid var(--roxo);
+
+  background: var(--cinza);
+  color: var(--roxo);
+
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+}
+
+.texto-criptografado {
+  font-size: 24px;
+  font-family: "Inter", sans-serif;
+  margin-top: 10px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.copiar {
+  cursor: pointer;
+  width: 328px;
+  height: 67px;
+  border-radius: 64px;
+  border: 1px solid var(--roxo);
+
+  background: var(--cinza);
+  color: var(--roxo);
+
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+}
+
+.area {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  background: var(--roxo);
+
+  width: 400px;
+  height: 944px;
+  gap: 32px;
+  border-radius: 32px;
+
+  div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background: var(--roxo);
+  }
+}
+
+.area img {
+  background: var(--roxo);
+}
+
+.area p {
+  max-width: 338px;
+
+  font-family: "Inter", sans-serif;
+  text-align: center;
+
+  background: var(--roxo);
+  color: var(--cinza);
+}
+
+.texto-1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+.texto-2 {
+    font-size: 16px;
+}
+
